@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 17.2px;
+  line-height: 20px;
+  font-weight: 600;
+  color: #c5c5c5;
+  text-transform: uppercase;
+
+  background-color: #ffffff;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main-navigation {
+  font-size: 13.2px;
+  line-height: 77px;
+  color: #c5c5c5;
+}
+
+.site-navigation,
+.login-links {
+  list-style: none;
+}
+
+.site-navigation a {
+  color: #c5c5c5;
+}
+
+.login-links a {
+  color: rgb(242, 248, 224);
+}
+
+.site-navigation a: hover,
+.site-navigation a: focus {
+  background color: #979797;
+}
+
+.main-list a {
+  text-transform: none;
+  color: #ffffff;
+}
+.main-list {
+  background-blend-mode: multiply;
+  background-image: url(../img/background-main.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 1300px;
+  height: 920px;
+  background-color: rgba(66, 89, 72, 0.29);
+}
+
+.features-main {
+  text-align: center;
+}
+.features-main p {
+  font-size: 19.2px;
+  text-align: center;
+  line-height: normal;
+  text-transform: none;
+}
+
+.features-main h2 {
+  font-size: 31.2px;
+  line-height: 50px;
+  font-weight: 600;
+  color: #515151;
+}
+
+.features-main p {
+  font-size: 19.2px;
+  line-height: normal;
+}
