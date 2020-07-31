@@ -1,0 +1,129 @@
+body {
+  margin: 0px auto;
+  padding: 0;
+  max-width: 1300px;
+  min-width: 960px;
+  min-height: 100%;
+
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 17.2px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #c5c5c5;
+  text-transform: uppercase;
+
+  background-color: #000000;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+a {
+  text-decoration: none;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0)
+}
+
+.main-navigation {
+  font-size: 13.2px;
+  line-height: 20px;
+  background-color: #ffffff;
+  margin-bottom: -13.5px;
+  font-weight: 600;
+}
+ul.site-navigation li {
+  display: inline-block;
+  margin-left: 30px;
+  float: right;
+  text-align: justify;
+
+}
+
+.site-navigation,
+.login-links {
+  list-style: none;
+}
+
+.site-navigation a {
+  color: #989898;
+}
+
+.login-links a {
+  color: rgb(242, 248, 224);
+}
+
+.site-navigation a: hover,
+.site-navigation a: focus {
+  background color: #979797;
+}
+
+.main-list a {
+  text-transform: none;
+  color: #ffffff;
+}
+.main-list {
+  background-image: url(../img/background-main.jpg);
+  background-color: #ffffff;
+  width: 1300px;
+  height: 570px;
+}
+.mask {
+  background: #ffffff;
+  width: 1300px;
+  height: 335px;
+}
+.features-part{
+  background-color: #ffffff;
+}
+.features-main {
+  text-align: center;
+}
+.features-main p {
+  font-size: 19.2px;
+  text-align: center;
+  line-height: normal;
+  text-transform: none;
+}
+
+.features-main h2 {
+  font-size: 31.2px;
+  line-height: 50px;
+  font-weight: 600;
+  color: #515151;
+}
+
+.features-main p {
+  font-size: 19.2px;
+  line-height: normal;
+}
+.features-list h4 {
+  color: #add136;
+  font-size: 25.5px;
+}
+.features-list p {
+  font-size: 17.2px;
+  text-transform: none;
+  font-weight: 400;
+  color: #949494;
+}
+
+.features-list h4 {
+  font-size: 25.2px;
+  color: #add136;
+  text-transform: none;
+  font-weight: 400;
+}
+
+.features-list h3 {
+  font-weight: 300;
+  font-size: 33.2px;
+  color: #656565;
+  text-transform: none;
+}
