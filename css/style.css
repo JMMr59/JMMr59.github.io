@@ -288,7 +288,7 @@ background-color: #98c310;
   position: relative;
   left: 280px;
   bottom: 20px;
-  background-color: #26a6d1;
+  background-color: #add136;
   padding: 22px 30px;
   border-radius: 10px;
   color: #ffffff;
@@ -321,6 +321,140 @@ background-color: #98c310;
   text-transform: capitalize;
   color: #515151;
 }
+
+.featured-projects h2 {
+  font-size: 29.2px;
+  font-weight: 600;
+  color: #515151;
+  position: relative;
+  left: 100px;
+  text-transform: none;
+}
+
+.featured-projects a {
+  position: relative;
+  left: 950px;
+  bottom: -5px;
+  background-color: #ffffff;
+  padding: 15px 35px;
+  border-radius: 10px;
+  color: #838383;
+  font-size: 14.84px;
+  font-weight: 600;
+  text-transform: capitalize;
+  border: 2px solid #838383;
+}
+
+.featured-projects p {
+  position: relative;
+  width: 672px;
+  font-size: 17.2px;
+  font-weight: 400;
+  text-transform: none;
+  left: 100px;
+  bottom: 30px;
+}
+
+.first-project {
+  background: #f9f9f9;
+  position: relative;
+  width: 300px;
+  height: 520px;
+  border-radius: 20px;
+  left: 120px;
+  background-image: url("../img/photo-london-1.png");
+  background-repeat: no-repeat;
+}
+.first-project h2 {
+  font-size: 17.2px;
+  font-weight: 800;
+  position: relative;
+  top: 220px;
+  left: 20px;
+}
+
+.first-project p {
+  position: relative;
+  font-size: 13.2px;
+  font-weight: 400;
+  text-transform: none;
+  width: 250px;
+  top: 220px;
+  left: 20px;
+  color: #7b7b7b;
+}
+
+.second-project {
+  background: #f9f9f9;
+  position: relative;
+  width: 300px;
+  height: 520px;
+  border-radius: 20px;
+  left: 480px;
+  bottom: 520px;
+  background-image: url("../img/photo-london-2.png");
+  background-repeat: no-repeat;
+}
+.second-project h2 {
+  font-size: 17.2px;
+  font-weight: 800;
+  position: relative;
+  top: 220px;
+  left: 20px;
+}
+
+.second-project p {
+  position: relative;
+  font-size: 13.2px;
+  font-weight: 400;
+  text-transform: none;
+  width: 250px;
+  top: 220px;
+  left: 20px;
+  color: #7b7b7b;
+}
+
+.third-project {
+  background: #f9f9f9;
+  position: relative;
+  width: 300px;
+  height: 520px;
+  border-radius: 20px;
+  left: 850px;
+  bottom: 1040px;
+  background-image: url("../img/photo-london-1.png");
+  background-repeat: no-repeat;
+}
+.third-project h2 {
+  font-size: 17.2px;
+  font-weight: 800;
+  position: relative;
+  top: 220px;
+  left: 20px;
+}
+
+.third-project p {
+  position: relative;
+  font-size: 13.2px;
+  font-weight: 400;
+  text-transform: none;
+  width: 250px;
+  top: 220px;
+  left: 20px;
+  color: #7b7b7b;
+}
+.first-project img {
+
+}
+
+.second-project {
+  background: #f9f9f9;
+  position: relative;
+  width: 300;
+  height: 520;
+}
+
+
 .feedback-block {
   background-image: url("../img/background-foot.jpg");
   height: 670px;
@@ -401,11 +535,57 @@ background-color: #98c310;
 #a3 {
   position: relative;
   left: 380px;
-  bottom: 90px;
+  bottom: 95px;
 }
 
 #a4 {
   position: relative;
   left: 740px;
-  bottom: 160px;
+  bottom: 165px;
+}
+
+.feedback-name1 {
+  text-transform: none;
+  font-size: 15.2px;
+  font-weight: 400;
+  color: #494949;
+  position: relative;
+  top: 180px;
+  right: 160px;
+}
+
+.feedback-name2 {
+  text-transform: none;
+  font-size: 15.2px;
+  font-weight: 400;
+  color: #494949;
+  position: relative;
+  bottom: 120px;
+  left: 390px;
+}
+
+.main-footer {
+  background: #ffffff;
+  position: relative;
+  bottom: 20px;
+  height: 120px;
+}
+
+ul.page-footer li
+{
+  display: inline-block;
+  margin: 0;
+  position: relative;
+  left: 100px;
+  top: 20px;
+}
+
+.footer-copyright {
+background: #ffffff;
+text-transform: none;
+font-size: 13.2px;
+font-weight: 400;
+text-align: center;
+position: relative;
+bottom: 12px;
 }
