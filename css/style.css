@@ -15,6 +15,7 @@ body {
   background-color: #000000;
   background-position: top center;
   background-repeat: no-repeat;
+
 }
 
 a {
@@ -136,7 +137,7 @@ background-color: #98c310;
 .mask {
   background: #ffffff;
   width: 1300px;
-  height: 335px;
+  height: 100px;
 }
 .features-part{
   background-color: #ffffff;
@@ -205,6 +206,7 @@ background-color: #98c310;
 
 .featured-projects {
   background: #ffffff;
+  width: 1300px;
 }
 
 .feature-input-radio {
@@ -248,7 +250,7 @@ background-color: #98c310;
 .button-membership {
   position: relative;
   left: 280px;
-  bottom: 40px;
+  bottom: 55px;
   background-color: #26a6d1;
   padding: 22px 30px;
   border-radius: 10px;
@@ -267,6 +269,8 @@ background-color: #98c310;
 .membership p {
   position: relative;
   left: 280px;
+  top: 20px;
+  line-height: 30px;
   width: 280px;
   font-size: 17.2;
   font-weight: 400;
@@ -277,6 +281,7 @@ background-color: #98c310;
 .membership h3 {
   position: relative;
   left: 280px;
+  top: 20px;
   font-size: 23.2px;
   font-weight: 400;
   text-transform: capitalize;
@@ -286,7 +291,7 @@ background-color: #98c310;
 .button-buyers {
   position: relative;
   left: 280px;
-  bottom: 20px;
+  bottom: 35px;
   background-color: #add136;
   padding: 22px 30px;
   border-radius: 10px;
@@ -305,6 +310,8 @@ background-color: #98c310;
 .buyers p {
   position: relative;
   left: 280px;
+  top: 20px;
+  line-height: 30px;
   width: 280px;
   font-size: 17.2;
   font-weight: 400;
@@ -315,6 +322,7 @@ background-color: #98c310;
 .buyers h3 {
   position: relative;
   left: 280px;
+  top: 20px;
   font-size: 23.2px;
   font-weight: 400;
   text-transform: capitalize;
@@ -331,7 +339,7 @@ background-color: #98c310;
   text-transform: none;
 }
 
-.featured-projects a {
+.button-project {
   position: relative;
   left: 950px;
   bottom: -5px;
@@ -362,7 +370,7 @@ background-color: #98c310;
   position: relative;
   width: 300px;
   height: 520px;
-  border-radius: 20px;
+  border-radius: 10px;
   left: 120px;
   top: 100px;
   background-image: url("../img/photo-london-1.png");
@@ -372,7 +380,7 @@ background-color: #98c310;
   font-size: 17.2px;
   font-weight: 800;
   position: relative;
-  top: 220px;
+  top: 120px;
   left: 20px;
 }
 
@@ -382,9 +390,159 @@ background-color: #98c310;
   font-weight: 400;
   text-transform: none;
   width: 250px;
-  top: 220px;
+  top: 120px;
   left: 20px;
   color: #7b7b7b;
+}
+
+#imgpercent {
+  position: relative;
+  z-index: 3;
+  top: 120px;
+  left: 25px;
+}
+
+#tenpercent {
+  z-index: 5;
+  position: relative;
+  top: 120px;
+  right: 228px;
+}
+
+#sixteenpercent {
+  z-index: 5;
+  position: relative;
+  top: 100px;
+  left: 23px;
+}
+
+#button-more-details-ten {
+  position: relative;
+  left: 110px;
+  font-size: 15.2px;
+  font-weight: 600;
+  top: 137px;
+  z-index: 3;
+  border: none;
+  background: #f9f9f9;
+  color: #818181;
+  text-transform: capitalize;
+}
+
+#button-more-details-sixteen {
+  position: relative;
+  display: block;
+  width: 180px;
+  height: 24px;
+  left: 110px;
+  top: 137px;
+  z-index: 3;
+  border: none;
+  background: #f9f9f9;
+  color: #818181;
+  text-transform: capitalize;
+  font-size: 15.2px;
+  font-weight: 600;
+}
+
+.percent-1-3 {
+  position: relative;
+  color: #a3a3a3;
+  font-size: 13.2px;
+  font-weight: 600;
+  top: 120px;
+  display: block;
+  left: 25px;
+  text-transform: capitalize;
+}
+
+.timeleft-1 {
+  position: relative;
+  color: #a3a3a3;
+  font-size: 13.2px;
+  font-weight: 600;
+  top: 99px;
+  left: 200px;
+  text-transform: capitalize;
+}
+
+.percent-60 {
+  position: relative;
+  color: #a3a3a3;
+  font-size: 13.2px;
+  font-weight: 600;
+  top: 120px;
+  right: 147px;
+  text-transform: capitalize;
+}
+
+.timeleft-2 {
+  position: relative;
+  color: #a3a3a3;
+  font-size: 13.2px;
+  font-weight: 600;
+  top: 99px;
+  display: block;
+  right: -200px;
+  text-transform: capitalize;
+}
+
+#button-more-details-img {
+  position: relative;
+  top: 2px;
+  left: 10px;
+}
+
+
+.line2 {
+  width: 252px;
+  height: 1px;
+  position: relative;
+  opacity: 1;
+  background-color: #d6d6d6;
+  border: none;
+  z-index: 5;
+  top: 122px;
+}
+
+.new1 {
+  position: relative;
+  display: block;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  color: #ffffff;
+  font-size: 14.55px;
+  font-weight: 400;
+  bottom: 177px;
+  right: 33px;
+}
+
+.new2 {
+  position: relative;
+  display: block;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  color: #ffffff;
+  font-size: 14.55px;
+  font-weight: 400;
+  bottom: 177px;
+  right: 33px;
+}
+.line1 {
+  width: 252px;
+  height: 1px;
+  position: relative;
+  opacity: 1;
+  background-color: #d6d6d6;
+  border: none;
+  z-index: 5;
+  top: 120px;
 }
 
 .second-project {
@@ -392,18 +550,20 @@ background-color: #98c310;
   position: relative;
   width: 300px;
   height: 520px;
-  border-radius: 20px;
-  left: 490px;
+  border-radius: 10px;
+  left: 485px;
   bottom: 420px;
-  background-image: url("../img/photo-london-2.png");
+  background-image: url("../img/photo-london2.png");
   background-repeat: no-repeat;
 }
+
 .second-project h2 {
   font-size: 17.2px;
   font-weight: 800;
   position: relative;
-  top: 220px;
+  top: 120px;
   left: 20px;
+  z-index: 2;
 }
 
 .second-project p {
@@ -412,7 +572,7 @@ background-color: #98c310;
   font-weight: 400;
   text-transform: none;
   width: 250px;
-  top: 220px;
+  top: 120px;
   left: 20px;
   color: #7b7b7b;
 }
@@ -422,17 +582,18 @@ background-color: #98c310;
   position: relative;
   width: 300px;
   height: 520px;
-  border-radius: 20px;
+  border-radius: 10px;
   left: 850px;
   bottom: 940px;
   background-image: url("../img/photo-london-1.png");
   background-repeat: no-repeat;
 }
+
 .third-project h2 {
   font-size: 17.2px;
   font-weight: 800;
   position: relative;
-  top: 220px;
+  top: 120px;
   left: 20px;
 }
 
@@ -442,24 +603,67 @@ background-color: #98c310;
   font-weight: 400;
   text-transform: none;
   width: 250px;
-  top: 220px;
+  top: 120px;
   left: 20px;
   color: #7b7b7b;
 }
-.first-project img {
 
-}
-
-.second-project {
-  background: #f9f9f9;
+#block-1 {
   position: relative;
-  width: 300;
-  height: 520;
+  top: 130px;
+  left: 70px;
 }
 
+.from {
+  font-size: 16.51px;
+  font-weight: 300;
+  color: #ffffff;
+  position: relative;
+  text-transform: capitalize;
+  top: 118px;
+  right: 67px;
+}
+
+.price {
+  font-size: 16.51px;
+  font-weight: 600;
+  color: #ffffff;
+  position: relative;
+  display: block;
+  top: 98px;
+  left: 200px;
+  z-index: 5;
+}
+
+#block-2 {
+  position: relative;
+  top: 130px;
+  left: 70px;
+}
+
+.from2 {
+  font-size: 16.51px;
+  font-weight: 300;
+  color: #ffffff;
+  position: relative;
+  text-transform: capitalize;
+  top: 118px;
+  right: 67px;
+}
+
+.price2 {
+  font-size: 16.51px;
+  font-weight: 600;
+  color: #ffffff;
+  position: relative;
+  display: block;
+  top: 98px;
+  left: 200px;
+  z-index: 5;
+}
 
 .feedback-block {
-  margin-top: -1000px;
+  margin-top: -1050px;
   background-image: url("../img/background-foot.jpg");
   height: 670px;
   width: 1300px;
@@ -573,6 +777,7 @@ background-color: #98c310;
   position: relative;
   bottom: 20px;
   height: 120px;
+  width: 1300px;
 }
 
 ul.page-footer li
@@ -592,4 +797,5 @@ font-weight: 400;
 text-align: center;
 position: relative;
 bottom: 12px;
+width: 1300px;
 }
