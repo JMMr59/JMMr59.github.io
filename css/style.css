@@ -304,25 +304,12 @@ ul.features li{
   display: none;
 }
 
-#feature-simple:checked ~ .text-block1,
-#feature-transparent:checked ~ .text-block2,
-#feature-collaborative:checked ~ .text-block3 {
+#feature-simple:checked ~ #block1,
+#feature-transparent:checked ~ #block2,
+#feature-collaborative:checked ~ #block3 {
   display: block;
   position: relative;
   width: 650px;
-}
-.text-block1 {
-  left: 350px;
-  top: 40px;
-}
-
-.text-block2 {
-  top: 200px;
-}
-
-.text-block3 {
-  right: 400px;
-  top: 200px;
 }
 
 .membership {
