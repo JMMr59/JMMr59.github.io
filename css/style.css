@@ -92,9 +92,9 @@ background-color: #98c310;
   color: rgb(242, 248, 224);
 }
 
-.site-navigation a: hover,
-.site-navigation a: focus {
-  background color: #979797;
+.site-navigation a:hover,
+.site-navigation a:focus {
+  background-color: #979797;
 }
 
 .main-list a {
@@ -210,22 +210,140 @@ background-color: #98c310;
 }
 
 .feature-input-radio {
-  position: absolute;
   z-index: -1;
   opacity: 0;
+  position: absolute;
 }
 
-.feature-input-radio + label + .feature-name:before {
+ul.features li{
+  list-style-type: none;
+}
+
+.feature-input-radio {
   position: relative;
-  content: "";
-  background-color: #5f5f5f;
-  padding: 0px 22px;
-  border-radius: 40px;
-  left: -20px;
 }
 
-.feature-input-radio:checked + label:before {
+
+
+#feature-simple:checked + label {
+  cursor: pointer;
+  position: relative;
+  border-bottom: 1px solid #add136;
+  padding-bottom: 23px;
+  z-index: 6;
+}
+
+#feature-transparent:checked + label {
+  cursor: pointer;
+  position: relative;
+  border-bottom: 1px solid #add136;
+  padding-bottom: 23px;
+  z-index: 6;
+  top: 163px;
+
+}
+
+#feature-collaborative:checked + label {
+  cursor: pointer;
+  position: relative;
+  border-bottom: 1px solid #add136;
+  padding-bottom: 23px;
+  z-index: 6;
+  top: 160px;
+}
+
+.feature-input-radio + label:before {
+  display: inline-block;
+  position: relative;
+  background-color: #5f5f5f;
+  padding: 20px;
+  border-radius: 40px;
+  margin-right: 30px;
+  margin-bottom: -10px;
+  content: "";
+  cursor: pointer;
+  
+}
+.feature-input-radio + label {
+  padding-bottom: 23px;
+  border-bottom: 1px solid #5f5f5f;
+}
+#feature-simple:checked + label:before {
   background-color: #add136;
+
+}
+#feature-transparent:checked + label:before {
+  background-color: #add136;
+
+}
+#feature-collaborative:checked + label:before {
+  background-color: #add136;
+
+}
+
+#l1 {
+  position: relative;
+  left: 80px;
+  bottom: -1px;
+}
+#l2 {
+  position: relative;
+  left: 430px;
+  bottom: 193px;
+}
+
+#l3 {
+  position: relative;
+  left: 830px;
+  bottom: 225px;
+}
+
+.number1 {
+  color: #ffffff;
+  position: relative;
+  right: 118px;
+  bottom: 4px;
+  z-index: 10;
+}
+
+.number2 {
+  position: relative;
+  right: 177px;
+  bottom: 4px;
+  color: #ffffff;
+  z-index: 15;
+}
+
+.number3 {
+  position: relative;
+  right: 193px;
+  bottom: 4px;
+  color: #ffffff;
+  z-index: 10;
+}
+.features-list div {
+  display: none;
+}
+
+#feature-simple:checked ~ .text-block1,
+#feature-transparent:checked ~ .text-block2,
+#feature-collaborative:checked ~ .text-block3 {
+  display: block;
+  position: relative;
+  width: 650px;
+}
+.text-block1 {
+  left: 350px;
+  top: 40px;
+}
+
+.text-block2 {
+  top: 200px;
+}
+
+.text-block3 {
+  right: 400px;
+  top: 200px;
 }
 
 .membership {
@@ -492,6 +610,7 @@ background-color: #98c310;
   top: 2px;
   left: 10px;
 }
+
 
 
 .line2 {
