@@ -223,33 +223,12 @@ ul.features li{
   position: relative;
 }
 
-
-
-#feature-simple:checked + label {
+#feature-input-radio:checked + label {
   cursor: pointer;
   position: relative;
   border-bottom: 1px solid #add136;
   padding-bottom: 23px;
   z-index: 6;
-}
-
-#feature-transparent:checked + label {
-  cursor: pointer;
-  position: relative;
-  border-bottom: 1px solid #add136;
-  padding-bottom: 23px;
-  z-index: 6;
-  top: 163px;
-
-}
-
-#feature-collaborative:checked + label {
-  cursor: pointer;
-  position: relative;
-  border-bottom: 1px solid #add136;
-  padding-bottom: 23px;
-  z-index: 6;
-  top: 160px;
 }
 
 .feature-input-radio + label:before {
@@ -289,13 +268,13 @@ ul.features li{
 #l2 {
   position: relative;
   left: 430px;
-  bottom: 193px;
+  bottom: 32px;
 }
 
 #l3 {
   position: relative;
   left: 830px;
-  bottom: 225px;
+  bottom: 65px;
 }
 
 .number1 {
