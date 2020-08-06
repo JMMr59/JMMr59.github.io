@@ -246,6 +246,7 @@ ul.features li{
 .feature-input-radio + label {
   padding-bottom: 23px;
   border-bottom: 1px solid #5f5f5f;
+  cursor: pointer;
 }
 #feature-simple:checked + label:before {
   background-color: #add136;
