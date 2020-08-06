@@ -223,7 +223,7 @@ ul.features li{
   position: relative;
 }
 
-#feature-input-radio:checked + label {
+.feature-input-radio:checked + label {
   cursor: pointer;
   position: relative;
   border-bottom: 1px solid #add136;
@@ -260,34 +260,37 @@ ul.features li{
 
 }
 
-#l1 {
+#feature-simple + label {
   position: relative;
-  left: 80px;
+  left: 130px;
   bottom: -1px;
 }
-#l2 {
+#feature-transparent + label {
   position: relative;
-  left: 430px;
-  bottom: 32px;
+  left: 330px;
+  bottom: -1px;
 }
-
-#l3 {
+#feature-collaborative + label {
   position: relative;
-  left: 830px;
-  bottom: 65px;
+  left: 500px;
+  bottom: -1px;
 }
-
+#glasses1 {
+  position: relative;
+  right: 300px;
+  bottom: 130px;
+}
 .number1 {
   color: #ffffff;
   position: relative;
-  right: 118px;
+  right: -12px;
   bottom: 4px;
   z-index: 10;
 }
 
 .number2 {
   position: relative;
-  right: 177px;
+  left: 153px;
   bottom: 4px;
   color: #ffffff;
   z-index: 15;
@@ -295,7 +298,7 @@ ul.features li{
 
 .number3 {
   position: relative;
-  right: 193px;
+  left: 307px;
   bottom: 4px;
   color: #ffffff;
   z-index: 10;
@@ -310,6 +313,8 @@ ul.features li{
   display: block;
   position: relative;
   width: 650px;
+  left: 450px;
+  padding: 50px;
 }
 
 .membership {
