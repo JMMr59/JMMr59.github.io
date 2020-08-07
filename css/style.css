@@ -15,6 +15,7 @@ body {
   background-color: #000000;
   background-position: top center;
   background-repeat: no-repeat;
+  overflow-x: hidden;
 
 }
 
@@ -29,7 +30,7 @@ a {
   padding: 0;
   overflow: hidden;
   border: 0;
-  clip: rect(0 0 0 0)
+  clip: rect(0 0 0 0);
 }
 
 .main-navigation {
@@ -241,8 +242,8 @@ ul.features li{
   margin-bottom: -10px;
   content: "";
   cursor: pointer;
-  
 }
+
 .feature-input-radio + label {
   padding-bottom: 23px;
   border-bottom: 1px solid #5f5f5f;
@@ -362,7 +363,7 @@ ul.features li{
   top: 20px;
   line-height: 30px;
   width: 280px;
-  font-size: 17.2;
+  font-size: 17.2px;
   font-weight: 400;
   text-transform: none;
   color: #515151;
@@ -403,7 +404,7 @@ ul.features li{
   top: 20px;
   line-height: 30px;
   width: 280px;
-  font-size: 17.2;
+  font-size: 17.2px;
   font-weight: 400;
   text-transform: none;
   color: #515151;
@@ -871,8 +872,7 @@ ul.features li{
   width: 1300px;
 }
 
-ul.page-footer li
-{
+ul.page-footer li {
   display: inline-block;
   margin: 0;
   position: relative;
